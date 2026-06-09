@@ -4,7 +4,7 @@ Repositório para guardar o trabalho de grupo.
 
 ## Organização do repositório 
 
-- O código fonte está na pasta [Codigo](https://github.com/inf25tig34/M2/tree/master).
+- O código fonte está na pasta [Codigo](https://github.com/inf25tig34/M2/tree/master/TrabalhoGrupo_TI/Codigo).
 
 
 ## Relatório

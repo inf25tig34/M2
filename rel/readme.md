@@ -30,7 +30,5 @@ Repositório para guardar o trabalho de grupo.
 - Capítulo IV : [Apresentação]()
 
 ## Equipa
-***
 
-- Rafael Ribeiro Morim Cabreira
 - António Filipe Sampaio Castro Ferreira

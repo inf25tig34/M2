@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<banda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="banda.xsd">
+    <funcoes>
+
+        <membro>
+            <nome>António Ferreira</nome>
+            <funcao_principal>Vocalista principal</funcao_principal>
+            <instrumento>Piano</instrumento>
+            <especialidade>Composição</especialidade>
+            <participacao>Fundador</participacao>
+            <area_criativa>Letras e Melodias</area_criativa>
+        </membro>
+
+        <membro>
+            <nome>Leonardo Gonçalves</nome>
+            <funcao_principal>Guitarrista</funcao_principal>
+            <instrumento>Guitarra</instrumento>
+            <especialidade>Produção Musical</especialidade>
+            <participacao>Fundador</participacao>
+            <area_criativa>Produção e Arranjos</area_criativa>
+        </membro>
+
+    </funcoes>
+
+    <destaques>
+
+        <membro>
+            <nome>António Ferreira</nome>
+            <funcao_principal>Vocalista e compositor</funcao_principal>
+            <instrumento>Piano</instrumento>
+            <especialidade>Composição</especialidade>
+            <participacao>Fundador</participacao>
+            <area_criativa>Letras e melodias</area_criativa>
+        </membro>
+
+        <membro>
+            <nome>Leonardo Gonçalves</nome>
+            <funcao_principal>Produtor musical</funcao_principal>
+            <instrumento>Guitarra</instrumento>
+            <especialidade>Produção</especialidade>
+            <participacao>Fundador</participacao>
+            <area_criativa>Arranjos e produção</area_criativa>
+        </membro>
+
+    </destaques>
+
+    <valores>
+
+        <valor>
+            <titulo>Criatividade</titulo>
+            <descricao>Produzir música original e autêntica.</descricao>
+            <descricao>Explorar diferentes estilos e influências.</descricao>
+        </valor>
+
+        <valor>
+            <titulo>Colaboração</titulo>
+            <descricao>Partilha constante de ideias.</descricao>
+            <descricao>Trabalho conjunto em todas as etapas da criação.</descricao>
+        </valor>
+
+        <valor>
+            <titulo>Dedicação</titulo>
+            <descricao>Aperfeiçoamento contínuo das capacidades musicais.</descricao>
+            <descricao>Compromisso com a qualidade artística.</descricao>
+        </valor>
+
+        <valor>
+            <titulo>Originalidade</titulo>
+            <descricao>Criação de uma identidade musical própria.</descricao>
+            <descricao>Expressão da visão da banda.</descricao>
+        </valor>
+
+    </valores>
+
+</banda>

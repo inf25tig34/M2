@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="membroType">
+        <xs:sequence>
+            <xs:element name="nome" type="xs:string"/>
+            <xs:element name="funcao_principal" type="xs:string"/>
+            <xs:element name="instrumento" type="xs:string"/>
+            <xs:element name="especialidade" type="xs:string"/>
+            <xs:element name="participacao" type="xs:string"/>
+            <xs:element name="area_criativa" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="valoresType">
+        <xs:sequence>
+            <xs:element name="valor" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="titulo" type="xs:string"/>
+                        <xs:element name="descricao" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="banda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="funcoes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="membro" type="membroType" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="destaques">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="membro" type="membroType" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="valores" type="valoresType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

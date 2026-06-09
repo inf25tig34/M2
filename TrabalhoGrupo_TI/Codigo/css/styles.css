@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.italico {
+    font-style: italic;
+}
+
+#formMain {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    width: 80px;
+    margin-right: 10px;
+}
+
+#input[type="submit"]{
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+#pHist::first-letter {
+    font-size: x-large;
+}
+
+
+
+.tmembro {
+    border-color: #000000;
+    border-style: solid;
+    border-width: medium;
+}
+
+.tmembro th {
+    border: 1px solid #000000;
+}
+
+.tmembro td {
+    border: 1px solid #000000;
+}
+
+#thmembro {
+    background-color: #dfdfdf;
+    text-align: center;
+}
+
+#tbmembro {
+    background-color: #a3a3a3;
+    color:#000000;
+    text-align: center;
+}
+
+#tfmembro {
+    background-color: #dfdfdf;
+    height: 15px;
+    text-align: center;
+}
+
+
+.navmain {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.navmain td {
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 25%;
+    border-collapse: collapse;
+}
+
+.navmain td img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.navmain td:hover{
+    background-color: #a9a9a9;
+}
+    
+
+#caracteristicas {
+    padding-left: 1rem;
+    list-style-type: square;
+}
+
+
+.foto {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.textoFoto {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#membroImg {
+    max-width: 300px;
+    height: auto;
+    border: 3px groove;
+    border-color: #000000;
+    padding: 1px;
+    margin: 1px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+
+header {
+    background: #a9a9a9;
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#Mainh {
+    background-image: url("../css/Imagens_css/main.png");
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+
+#membrosBanda {
+    background-image: url("../css/Imagens_css/cordaguitarra.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#influenciasM {
+    background-image: url("../css/Imagens_css/cordaguitarra.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#album {
+    background-image: url("../css/Imagens_css/cordaguitarra.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#producaoMusical{
+    background-image: url("../css/Imagens_css/cordaguitarra.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#selo {
+    border: 0;
+    width: 88px;
+    height: 31px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 3px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 0.5rem 0;
+    }
+
+    body {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #membroImg {
+        width: 100px;
+        height: auto;
+    }
+
+    .membro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figcaption {
+        visibility: hidden;
+    }
+}
